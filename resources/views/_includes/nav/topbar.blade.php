@@ -2,9 +2,9 @@
 @auth
 <nav class="navbar navbar-expand-lg navbar-transparent fixed-top navbar-absolute">
     <div class="container-fluid">
-        <!-- <div class="navbar-wrapper">
-            <a class="navbar-brand" href="#pablo">Notifications</a>
-        </div> -->
+        <div class="navbar-wrapper">
+            <a class="navbar-brand" href="{{ route('home') }}">@yield('title')</a>
+        </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
             <span class="navbar-toggler-icon icon-bar"></span>
@@ -74,7 +74,6 @@
 @guest
 <nav class="navbar navbar-expand-lg navbar-absolute fixed-top ">
     <div class="container-fluid">
-        <a class="navbar-brand" href="{{ route('home') }}">{{ config('app.name', 'Laravel') }}</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>

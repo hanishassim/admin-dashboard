@@ -1,4 +1,4 @@
-<div class="sidebar" data-color="danger" data-background-color="white" data-image="../assets/img/sidebar-1.jpg" style="z-index: 10000;">
+<div class="sidebar" data-color="danger" data-background-color="white" data-image="{{ asset('images/sidebar-2.jpg') }}" style="z-index: 10000;">
 <!--
     Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
 
@@ -18,13 +18,13 @@
         </a>
     </li>
     <li class="nav-item ">
-        <a class="nav-link" href="{{ route('home') }}">
+        <a class="nav-link" href="{{ route('profile') }}">
             <i class="material-icons">person</i>
             <p>User Profile</p>
         </a>
     </li>
     <li class="nav-item ">
-        <a class="nav-link" href="{{ route('home') }}">
+        <a class="nav-link" href="{{ route('table') }}">
             <i class="material-icons">content_paste</i>
             <p>Table List</p>
         </a>
@@ -42,18 +42,18 @@
         </a>
     </li>
     <li class="nav-item ">
-        <a class="nav-link" href="{{ route('home') }}">
+        <a class="nav-link" href="{{ route('map') }}">
             <i class="material-icons">location_ons</i>
             <p>Maps</p>
         </a>
     </li>
-    <li class="nav-item active ">
-        <a class="nav-link" href="{{ route('home') }}">
+    <li class="nav-item">
+        <a class="nav-link" href="{{ route('notification') }}">
             <i class="material-icons">notifications</i>
             <p>Notifications</p>
         </a>
     </li>
     </ul>
 <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;"><div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 0px;"></div></div></div>
-<div class="sidebar-background" style="background-image: url(&quot;../assets/img/sidebar-2.jpg&quot;);"></div></div>
+<div class="sidebar-background" style="background-image: url(&quot;{{ asset('images/sidebar-2.jpg') }}&quot;);"></div></div>
 <div class="main-panel ps-container ps-theme-default ps-active-y" data-ps-id="b2bbb995-2a66-3dab-f483-47aed214e6b6">

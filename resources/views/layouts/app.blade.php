@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- CSRF Token -->
+        {{-- This comment will not be present in the rendered HTML --}}
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <title>{{ config('app.name', 'Laravel') }} - {{ __('Dashboard') }}</title>
@@ -22,11 +23,13 @@
                     @include('_includes.nav.sidebar')
                     @include('_includes.nav.topbar')
 
-                    <div class="" style="margin-top: 100px;">
+                    <!-- <div class="" style="margin-top: 100px;"> -->
                         @yield('content')
 
-                        @include('_includes.footer')
-                    </div>
+                        @if (Route::currentRouteName() !== 'map')
+                            @include('_includes.footer')
+                        @endif
+                    <!-- </div> -->
 
                     <!-- <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px; height: 947px;"><div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 800px;"></div></div></div> -->
                 @endauth
@@ -40,7 +43,6 @@
         </div>
 
         <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
-        <script src="{{ asset('js/font-awesome.js') }}" type="text/javascript"></script>
 
         @yield('scripts')
     </body>
