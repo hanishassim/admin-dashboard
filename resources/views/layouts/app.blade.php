@@ -15,6 +15,12 @@
         <link href="{{ asset('css/app.css') }}" type="text/css" rel="stylesheet" />
 
         @yield('styles')
+        <style>
+        .lity {
+            /* override z-index */
+            z-index: 10001 !important;
+        }
+        </style>
     </head>
     <body>
         <div class="flex-center position-ref full-height">

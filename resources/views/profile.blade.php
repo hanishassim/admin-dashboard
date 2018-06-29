@@ -33,10 +33,31 @@
                     </div>
                     </div>
                     <div class="col-md-4">
-                    <div class="form-group">
-                        <label class="bmd-label-floating">Email address</label>
-                        <input type="email" class="form-control">
+                        <div class="form-group">
+                            <label class="bmd-label-floating">Email address</label>
+                            <input type="email" class="form-control">
+                            <span class="bmd-help">We'll never share your email with anyone else.</span>
+                        </div>
                     </div>
+                    <div class="col-md-6">
+                        <div class="input-group form-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-user-md"></i>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="With Font Awesome Icons">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-group form-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="material-icons">mail</i>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="With Font Awesome Icons">
+                        </div>
                     </div>
                 </div>
                 <div class="row">
@@ -86,7 +107,7 @@
                     <div class="form-group">
                         <label>About Me</label>
                         <div class="form-group">
-                        <label class="bmd-label-floating"> Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo.</label>
+                        <label class="bmd-label-floating">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, provident molestiae. Alias praesentium fugit facere rem! Dignissimos molestiae rem, maiores consequuntur enim ipsum placeat aperiam! Harum ipsa numquam provident saepe?
                         <textarea class="form-control" rows="5"></textarea>
                         </div>
                     </div>
@@ -101,15 +122,15 @@
         <div class="col-md-4">
             <div class="card card-profile">
             <div class="card-avatar">
-                <a href="#pablo">
-                <img class="img" src="{{ asset('material-dashboard/assets/img/faces/card-profile2-square.jpg') }}" />
+                <a href="#">
+                <img class="img" src="https://placeimg.com/480/480/people" />
                 </a>
             </div>
             <div class="card-body">
                 <h6 class="card-category text-gray">CEO / Co-Founder</h6>
                 <h4 class="card-title">Alec Thompson</h4>
                 <p class="card-description">
-                Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum blanditiis maiores ratione quos ullam mollitia iure, tempore amet nam cupiditate nisi cum non sit rerum earum corrupti similique voluptas? Laborum?
                 </p>
                 <a href="#pablo" class="btn btn-primary btn-round">Follow</a>
             </div>

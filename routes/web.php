@@ -43,3 +43,11 @@ Route::get('map', function () {
 Route::get('notification', function () {
     return view('notifications');
 })->name('notification');
+
+Route::get('carousel', function () {
+    return view('carousel');
+})->name('carousel');
+
+Route::get('lightbox', function () {
+    return view('lightbox');
+})->name('lightbox');

@@ -27,6 +27,10 @@
         "vue": "^2.5.7"
     },
     "dependencies": {
-        "material-dashboard": "^2.1.0"
+        "chartist-plugin-axistitle": "0.0.4",
+        "chartist-plugin-tooltips": "0.0.17",
+        "lity": "^2.3.1",
+        "material-dashboard": "^2.1.0",
+        "owl.carousel": "^2.3.4"
     }
 }

@@ -53,6 +53,18 @@
             <p>Notifications</p>
         </a>
     </li>
+    <li class="nav-item">
+        <a class="nav-link" href="{{ route('carousel') }}">
+            <i class="material-icons">slideshow</i>
+            <p>Carousel</p>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="{{ route('lightbox') }}">
+            <i class="material-icons">fullscreen</i>
+            <p>Lightbox</p>
+        </a>
+    </li>
     </ul>
 <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;"><div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 0px;"></div></div></div>
 <div class="sidebar-background" style="background-image: url(&quot;{{ asset('images/sidebar-2.jpg') }}&quot;);"></div></div>
